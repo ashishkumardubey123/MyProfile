@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile page </title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="icons8-chatgpt-64.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/1734a49fa0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="stayle.css">
+</head>
+<body>
+
+
+    <div class="  bg-[black] overflow-hidden   text-green  flex w-[100vw] h-[100vh] relative   "> 
+   <div id="circle1" class="h-[13em] bg-gradient-to-r from-cyan-500 to-blue-500 absolute rounded-full w-[13em] bg-[red] left-[15em]"> </div>
+
+   <div id="circle2" class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 h-[13em] absolute rounded-full w-[13em] bg-[green]  top-[20em] left-[40em]"> </div>
+
+
+   <div id="wrapper" class="">
+    <div id="cardwraper" class="">
+    <img class="rounded-full h-[9em] w-[9.5em]  " src="best.jpeg" alt="">
+ <div id="username">
+    <h2> Ashish Kumar dubey</h2>
+</div>
+<div><h3 class="h3">A full-Stack Developer</h3></div>
+    <div id="buttonGroup">
+
+        <button onclick="openModal()" id="share">
+        
+                <i class="fa-solid fa-share"></i>
+                <h2>Share My Profile </h2> 
+        
+        </button>
+
+        <button id="follow" > 
+            <div>
+                Follow Me
+            </div></button>
+    </div>
+
+   </div>
+   </div>
+
+
+<!-- !modal component -->
+
+
+ <div class=" modal">
+    <div id="modalHeader">
+    <h1>
+        Share My Profile</h1> 
+    <div>
+        <i onclick="closeModal()" class=" cursor-pointer fa-solid fa-x"></i>
+    </div>
+</div>
+
+
+
+
+<div class=" linksdiv ">
+    <h2>Share This Via</h2>
+
+    <div id="socialLinks">
+    <div id="github" > 
+        <a href="https://github.com/ashishkumardubey123 " target="_blank" >
+        <i class="fa-brands fa-square-github"></i>
+    </a>
+    </div>
+
+    <div  id="Twitter" >
+        <a href="https://twitter.com/ASHISHD26473289" target="_blank" >
+            <i class="fa-brands fa-x-twitter"></i>
+        </a>
+    </div>
+
+    <div id="insta" >
+            <a href="https://www.instagram.com/apex_monk/"  target="_blank" >
+                <i class="fa fa-instagram" style="color:red"></i>
+            </a>
+    </div>
+
+     <div id="Whatsaap"> 
+     <a href="#" id="Whatsaap">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>    
+    </div>
+
+    <div  id="Telegram" >
+        <a href="Ashish834">
+        <i class="fa-brands fa-telegram"></i>
+    </a>
+    </div>
+
+     </div>
+       
+    </div>
+</div>
+
+<div class="overlay" onclick="closeModal()"></div>
+
+
+</div>
+    </div>
+
+<script src="script.js"></script> 
+    
+</body>
+</html>
+
